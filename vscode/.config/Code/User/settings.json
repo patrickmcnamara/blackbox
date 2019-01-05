@@ -1,0 +1,22 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "all",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "editor.rulers": [
+        80,
+        128
+    ],
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontFamily": "monospace",
+    "git.confirmSync": false,
+    "extensions.ignoreRecommendations": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "window.zoomLevel": 0,
+    "html.format.enable": false
+}

@@ -1,0 +1,31 @@
+command=/usr/lib/i3blocks/$BLOCK_NAME
+separator_block_width=30
+markup=none
+
+[cpu_usage]
+interval=5
+
+[memory]
+interval=5
+
+[disk]
+interval=5
+
+[load_average]
+interval=5
+
+[iface]
+color=#00FF00
+interval=5
+
+[bandwidth]
+interval=5
+
+[volume]
+command=/usr/lib/i3blocks/volume "5%" pulse
+interval=1
+
+[time]
+command=date '+%Y-%m-%d %H:%M:%S %:z'
+interval=1
+separator_block_width=10

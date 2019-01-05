@@ -1,0 +1,7 @@
+[user]
+	name = Patrick McNamara
+	email = hello@patrickmcnamara.xyz
+	signingkey = 4F62CA70
+[commit]
+	gpgsign = true
+
