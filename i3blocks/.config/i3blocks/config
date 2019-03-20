@@ -21,11 +21,15 @@ interval=5
 [bandwidth]
 interval=5
 
+[nightlight]
+command=$HOME/.config/i3blocks/$BLOCK_NAME
+interval=once
+
 [volume]
-command=/usr/lib/i3blocks/volume "5%" pulse
+signal=1
 interval=1
 
 [time]
-command=date '+%Y-%m-%d %H:%M:%S %:z'
+command=$HOME/.config/i3blocks/$BLOCK_NAME
 interval=1
 separator_block_width=10

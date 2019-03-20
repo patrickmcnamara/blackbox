@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# SET TOGGLE FILE
+TOGGLE="/tmp/nl"
+
+# BUTTON
+if [ "$BLOCK_BUTTON" = "3" ]; then
+  if [ ! -e "$TOGGLE" ]; then
+    touch "$TOGGLE"
+  else
+    rm "$TOGGLE"
+  fi
+fi
+
+# TOGGLE NIGHTLIGHT AND PRINT OUT
+echo "NL"
+echo "NL"
+if [ ! -e "$TOGGLE" ]; then
+  sct
+else
+  sct 4000
+  echo "#00FFFF"
+fi
