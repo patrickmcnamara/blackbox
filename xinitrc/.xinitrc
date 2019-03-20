@@ -1,9 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 
 xmodmap ~/.Xmodmap
-~/.fehbg
+xsetroot -grey
 
 udiskie --no-notify --quiet &
 autocutsel -selection PRIMARY -fork &
+autocutsel -selection CLIPBOARD -fork &
 
 exec i3

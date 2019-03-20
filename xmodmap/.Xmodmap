@@ -1,1 +1,13 @@
+keycode 133 = Alt_L
+keycode 64  = Super_L
 keycode 108 = Super_R
+keycode 134 = ISO_Level3_Shift
+
+clear mod1
+clear mod2
+clear mod3
+clear mod4
+clear mod4
+
+add mod1 = Super_L
+add mod2 = Super_R
