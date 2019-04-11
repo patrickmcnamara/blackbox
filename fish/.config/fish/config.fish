@@ -1,3 +1,6 @@
+### Fish greeting
+set -g fish_greeting (tty)
+
 if status is-login
     ### $GOPATH and $PATH
     set -x GOPATH ~/.go
@@ -20,9 +23,6 @@ if status is-login
 
     ### Start X at login
     if [ (tty) = "/dev/tty1" ]
-        exec startx -- -keeptty
+        exec startx -- -keeptty > /dev/null 2>&1
     end
-else
-    ### Fish greeting
-    set -g fish_greeting (tty)
 end
