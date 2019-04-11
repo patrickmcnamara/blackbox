@@ -107,6 +107,3 @@ bar {
         status_command i3blocks
         separator_symbol "//"
 }
-
-### start compton
-exec compton
